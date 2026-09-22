@@ -5,6 +5,8 @@
 ![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/1-4.png?raw=true)
 
 5. Добавить к вашей ВМ дополнительный диск.
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/VM_disk.png?raw=true)
+
 
 
 6. 
