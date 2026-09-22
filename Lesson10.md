@@ -4,3 +4,11 @@
 4. В директории lesson_10 создать директории logs и debug; переместить файл available/app.log в директорию logs, а в debug сделать hardlink на logs/app.log
 ![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/1-4.png?raw=true)
 
+5. Добавить к вашей ВМ дополнительный диск.
+
+
+6. 
+
+
+
+
