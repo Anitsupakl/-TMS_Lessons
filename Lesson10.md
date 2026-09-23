@@ -9,7 +9,10 @@
 
 
 
-6. 
+6. Посмотреть список блочных устройств (lsblk) и список смонтированных ФС (df -Th)
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/5.png?raw=true)
+
+7. 
 
 
 
