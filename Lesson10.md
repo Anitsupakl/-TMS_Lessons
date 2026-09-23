@@ -8,11 +8,40 @@
 ![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/VM_disk.png?raw=true)
 
 
-
 6. Посмотреть список блочных устройств (lsblk) и список смонтированных ФС (df -Th)
+
+Добавлен sdb      8:16   0    2G  0 disk 
 ![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/5.png?raw=true)
 
-7. 
+7. Создать на новом диске ФС типа ext4
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/7.png?raw=true)
+
+8. Создать директорию /opt/application и смонтировать в нее новый диск (монтирование должно быть постоянным, через /etc/fstab)
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/7.1.png?raw=true)
+9.  Скопировать /opt/application все содержимое lesson_10. Должно получиться примерно такое
+/opt/application/
+├── available
+│   └── app.conf
+├── debug
+│   └── app.log
+├── enabled
+│   └── app.conf -> available/app.conf
+└── logs
+    └── app.log
+
+
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/9.png?raw=true)
+
+
+    
+10.Попробовать сделать hardlink на файл $HOME/home_works/lesson_10/available/readme.md в директории /opt/application (не получится); затем сделать symlink на этот же файл
+
+
+![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/main/9.1.png?raw=true)
+
+
+
+
 
 
 
