@@ -39,7 +39,10 @@
 
 ![Image Alt](https://github.com/Anitsupakl/-TMS_Lessons/blob/lesson10/9.1.png?raw=true)
 
+11.Это уже потом заметилось после ребута)
+В пункте 8 недописала букву s в слове defaults, поэтому и папка lost+founds создалась, файлик не редактировала уже весь заново пропишу тут)
 
+![Image Alt](https://github.com/Anitsupakl/TMS_Lessons/blob/lesson10/11.png?raw=true)
 
 
 
